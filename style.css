@@ -6,12 +6,14 @@ body {
 .pixel-grid {
   display: grid;
 }
-.new-line {
-  grid-row: var(--grid-size);
-}
 .pixel {
+  grid-row: var(--grid-size);
   height: 50px;
   width: 50px;
   border: none;
   background-color: lightgray;
+}
+.black {
+  background-color: black;
+  color: black;
 }
