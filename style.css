@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pixel-grid {
+  display: grid;
+}
+.new-line {
+  grid-row: var(--grid-size);
+}
+.pixel {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: lightgray;
+}
